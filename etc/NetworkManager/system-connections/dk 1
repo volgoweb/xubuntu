@@ -1,0 +1,15 @@
+[connection]
+id=dk 1
+uuid=ca2377b8-5929-426b-aa28-26819f45d899
+type=802-11-wireless
+
+[802-11-wireless]
+ssid=dk
+mode=infrastructure
+mac-address=DC:A9:71:48:FF:D5
+
+[ipv6]
+method=auto
+
+[ipv4]
+method=auto

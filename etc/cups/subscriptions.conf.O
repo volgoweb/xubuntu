@@ -1,0 +1,11 @@
+# Subscription configuration file for CUPS v1.6.2
+# Written by cupsd
+NextSubscriptionId 3
+<Subscription 1>
+Events printer-state-changed printer-restarted printer-shutdown printer-stopped printer-added printer-deleted
+Owner volgoweb
+LeaseDuration 86400
+Interval 0
+ExpirationTime 1380636443
+NextEventId 54
+</Subscription>

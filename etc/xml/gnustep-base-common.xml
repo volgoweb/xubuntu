@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
+  "file:///usr/share/xml/schema/xml-core/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<delegatePublic publicIdStartString="-//GNUstep//DTD gsdoc 1.0.3//EN" catalog="file:///usr/share/xml/gnustep/gsdoc-1_0_3.dtd"/>
+<delegatePublic publicIdStartString="-//GNUstep//DTD plist 0.9//EN" catalog="file:///usr/share/xml/gnustep/plist-0_9.dtd"/>
+<delegatePublic publicIdStartString="-//GNUstep//DTD gsdoc 1.0.2//EN" catalog="file:///usr/share/xml/gnustep/gsdoc-1_0_2.dtd"/>
+<delegatePublic publicIdStartString="-//GNUstep//DTD gsdoc 0.6.5//EN" catalog="file:///usr/share/xml/gnustep/gsdoc-0_6_5.dtd"/>
+<delegatePublic publicIdStartString="-//GNUstep//DTD gsdoc 1.0.0//EN" catalog="file:///usr/share/xml/gnustep/gsdoc-1_0_0.dtd"/>
+<delegatePublic publicIdStartString="-//GNUstep//DTD gsdoc 0.6.7//EN" catalog="file:///usr/share/xml/gnustep/gsdoc-0_6_7.dtd"/>
+<delegatePublic publicIdStartString="-//GNUstep//DTD gsdoc 1.0.1//EN" catalog="file:///usr/share/xml/gnustep/gsdoc-1_0_1.dtd"/>
+<delegatePublic publicIdStartString="-//GNUstep//DTD gsdoc 0.6.6//EN" catalog="file:///usr/share/xml/gnustep/gsdoc-0_6_6.dtd"/>
+</catalog>

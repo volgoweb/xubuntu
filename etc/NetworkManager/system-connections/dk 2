@@ -1,0 +1,21 @@
+[connection]
+id=dk 2
+uuid=95225aa0-04a0-45f4-b88e-b1dcd0ec72db
+type=802-11-wireless
+
+[802-11-wireless]
+ssid=dk
+mode=infrastructure
+mac-address=DC:A9:71:48:FF:D5
+security=802-11-wireless-security
+
+[802-11-wireless-security]
+key-mgmt=wpa-psk
+auth-alg=open
+psk=dtgt43j_
+
+[ipv4]
+method=auto
+
+[ipv6]
+method=auto
