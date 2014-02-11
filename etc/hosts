@@ -1,0 +1,31 @@
+127.0.0.1	localhost
+127.0.0.1	volgoweb-laptop
+127.0.0.1	test
+127.0.0.1	drupal7.local
+127.0.0.1	volgtehkol.local
+127.0.0.1	pma
+127.0.0.1	miracrm.local
+127.0.0.1	callmedarling.local
+127.0.0.1	bb.local
+127.0.0.1	twelve.local
+127.0.0.1	foodfit.local
+127.0.0.1	foodfit_test.local
+127.0.0.1	wp.local
+127.0.0.1	pan-varna.local
+127.0.0.1	specialist.local
+127.0.0.1	atrium.local
+127.0.0.1	doctor.local
+127.0.0.1	ruswebs.local
+127.0.0.1	drupal6.local
+127.0.0.1	click-and-click-new.local
+127.0.0.1	click-and-click.local
+127.0.0.1	bessmert.local
+127.0.0.1	autolombard34.local
+127.0.0.1	saadak.local
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
