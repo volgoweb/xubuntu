@@ -17,6 +17,7 @@ alias pull='git pull && git status'
 alias push='git pull && git status && git add . && git commit -a && git push'
 alias ginit='git init && git add . && git commit -am "First commit"'
 alias gremote='git remote add origin '
+alias gcommit='git add . && git commit -am $1 '
 
 alias ssh101='ssh dk@78.47.159.169'
 alias ssh103='ssh dk@78.47.159.175'
@@ -30,6 +31,9 @@ alias ssh12root='ssh root@46.20.37.254'
 alias sshglaz='ssh -p2022 newvgl@n.videoglaz.ru'
 alias sshtracker='ssh -p 22004 root@176.9.3.173'
 alias sshitp='ssh u7448@85.17.23.99'
+alias sshsmk='ssh smk@37.143.13.118'
+alias sshdjango='ssh volgoweb@62.213.111.107'
+alias sshjino='ssh volgoweb@volgoweb.myjino.ru'
 
 #" вывод содержимого каталога с размером в мегабайтах
 #" alias dirs='du -h | grep ^[0-9]*M | sort -rn'
@@ -51,11 +55,10 @@ export PS1='\n\[\033[0;0;0;33m\][\u] \[\033[0;0;0;35m\]\w \[\033[0;0;0;33m\]\$\[
 
 export source="/my/web_projects/source"
 export vhosts="/my/vhosts"
-export wiki="$vhosts/wiki"
-export mira="$vhosts/miracrm_repo"
-export food="/my/web_projects/source/foodfit"
-export tt="/my/web_projects/source/tt"
-export rw="/my/vhosts/ruswebs.local/htdocs"
+export smk="$vhosts/smk.local/htdocs/sites/all/modules/custom"
+
+# виртуальное окружение для python и django
+alias env_default="source ~/.virtualenvs/default/bin/activate"
 
 # в этой следующей стороке мы запускаем keychain
 # и указываем ему те личные ключи, которые он должен будет кэшировать

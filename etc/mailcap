@@ -54,6 +54,7 @@ application/mpeg4-iod; vlc '%s'; description="MPEG-4 Video"; test=test -n "$DISP
 application/mpeg4-muxcodetable; vlc '%s'; description="MPEG-4 Video"; test=test -n "$DISPLAY"
 text/html; /usr/bin/sensible-browser '%s'; description=HTML Text; nametemplate=%s.html
 application/pdf; evince '%s'; test=test -n "$DISPLAY"; nametemplate=%s.pdf
+application/x-freemind; /usr/bin/freemind '%s'; test=test -n "$DISPLAY"; description="FreeMind MindMap file"; textualnewlines; nametemplate=%s.mm
 application/x-troff-man; /usr/bin/nroff -mandoc -Tutf8; copiousoutput; print=/usr/bin/nroff -mandoc -Tutf8 | print text/plain:-
 image/jpeg; gthumb '%s'; test=test -n "$DISPLAY"
 image/gif; gthumb '%s'; test=test -n "$DISPLAY"
